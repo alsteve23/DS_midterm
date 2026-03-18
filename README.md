@@ -33,7 +33,7 @@ python publisher.py WEATHER 15001
 **Terminal 5 (opcional)**
 
 ```bash
-python publisher.py HOur 15003
+python publisher.py HOUR 15003
 ```
 
 ## Paso 3 – Iniciar consumers
