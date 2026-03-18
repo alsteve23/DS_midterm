@@ -35,7 +35,7 @@ Recibe 5 mensajes del servicio PELICULAS:
 ```bash
 python consumer.py MOVIES 
 ```
-Terminal 7
+**Terminal 7**
 
 ```bash
 python consumer.py WEATHER 
