@@ -1,23 +1,42 @@
 # DS_midterm
-Cómo ejecutar (abrir una terminal por proceso)
-Paso 1 – Iniciar servidores
-# Terminal 1
-python replica_server.py
+# 🚀 Cómo ejecutar (abrir una terminal por proceso)
 
-# Terminal 2
-python main_server.py
-Paso 2 – Registrar publishers
-bash# Terminal 3
-python publisher.py PELICULAS 15000
+## Paso 1 – Iniciar servidores
 
-# Terminal 4
-python publisher.py CLIMA 15001
+**Terminal 1**
+  ```bash
+  python replica_server.py
+**Terminal 2** 
 
-# Terminal 5 (opcional)
-python publisher.py HORA 15003
-Paso 3 – Iniciar consumers
-bash# Terminal 6 (recibe 5 mensajes del servicio PELICULAS)
-python consumer.py PELICULAS 5
+  ```bash
+  python main_server.py
+  ```
+## Paso 2 – Registrar publishers
 
-# Terminal 7
-python consumer.py CLIMA 5
+**Terminal 3**
+
+  ```bash
+python publisher.py MOVIES 15000
+  ```
+**Terminal 4**
+
+```bash
+python publisher.py WEATHER 15001
+```
+**Terminal 5 (opcional)**
+
+```bash
+python publisher.py HOur 15003
+```
+## Paso 3 – Iniciar consumers
+**Terminal 6  **
+Recibe 5 mensajes del servicio PELICULAS:
+
+```bash
+python consumer.py MOVIES 
+```
+Terminal 7
+
+```bash
+python consumer.py WEATHER 
+```
