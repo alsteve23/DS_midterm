@@ -29,7 +29,8 @@ python publisher.py WEATHER 15001
 python publisher.py HOur 15003
 ```
 ## Paso 3 – Iniciar consumers
-**Terminal 6  **
+
+**Terminal 6**
 Recibe 5 mensajes del servicio PELICULAS:
 
 ```bash
