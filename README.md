@@ -4,10 +4,11 @@
 ## Paso 1 – Iniciar servidores
 
 **Terminal 1**
+
   ```bash
   python replica_server.py
+  ```
 **Terminal 2** 
-
   ```bash
   python main_server.py
   ```
