@@ -1,7 +1,7 @@
 # DS_midterm
 Cómo ejecutar (abrir una terminal por proceso)
 Paso 1 – Iniciar servidores
-bash# Terminal 1
+# Terminal 1
 python replica_server.py
 
 # Terminal 2
